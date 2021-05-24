@@ -1,0 +1,47 @@
+.menu-element
+{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu-element:hover
+{
+    background:black;
+}
+.nav-button
+{
+    margin: 10px;
+    background-color: orange;
+    color: white;
+    border: 2px solid;
+}
+
+.flexblock
+    {
+        display: flex;
+        padding: 20px;
+    }
+.block
+    {
+        background-color: orange;
+        color: white;
+        padding: 20px;
+        width: 25%;
+        margin: 10px;
+
+    }
+
+
+.hide
+{
+    display: none;
+}
+
+
+@media (max-width: 600px)
+{
+}

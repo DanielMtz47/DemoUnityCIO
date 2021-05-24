@@ -6,8 +6,29 @@
     <title>Unity WebGL Player | DemoCIO</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+
+    <!--                                                    -->  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--                                                    -->  
+    
   </head>
   <body>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper blue darken-4">
+          <div class="container">
+              <a href="#" class="brand-logo">Daniel Martínez</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">About me</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+          </div>
+      </nav>
+    </div>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=720 height=480></canvas>
       <div id="unity-loading-bar">
