@@ -19,35 +19,41 @@
 
 
 <body>
-    <div class="navbar-fixed">
-        <nav class="nav-wrapper blue darken-4">
-            <div class="container">
-                <a href="#" class="brand-logo">Virtual Laboratory</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-            </div>
-        </nav>
-    </div>
+  <div class="navbar-fixed">
+    <nav class="nav-wrapper blue darken-4">
+        <div class="container">
+            <a href="#" class="brand-logo">Refraction Demo</a>
+            <a href="https://www.cio.mx/" target="_blank" class="logo">
+              <img src="TemplateData/cio.png">
+          </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              </ul>
+        </div>
+    </nav>
+</div>
 
     <div class="container section">
         <div class="row">
             <div class="col s12">
+        
+
+        <div class="col s12">
+            <div class = "separator1"></div>
         </div>
-            <div class="col s3">
+            <div class="col s4">
                 <div class="card blue darken-4">
                     <div class="card-image">
-                        <img src="1.jpg" alt="">
+                        <img src="TemplateData/snell.png" alt="">
                     </div>
-                    <div class="card-content white-text"><span class="card-title"> Lorem, ipsum dolor.</span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, voluptatum. Sed, numquam ducimus ea necessitatibus tempore assumenda voluptatem atque ad autem officiis. Nam est at rem, hic quas atque id!</div>
-                    <div class="card-action">
-                        <a href="#">DPP</a>
-                    </div>
+                    <div class="card-content white-text"><span class="card-title"> Snell's Law</span>Refraction is the bending of the path of a light wave as it passes across the boundary separating two media. Refraction is caused by the change in speed experienced by a wave when it changes medium. </div>
                 </div>      
             </div>
-            <div class="col s9">
+            
+            <div class = "col s1">
+
+            </div>
+
+            <div class="col s7">
                 <div id="unity-container" class="unity-desktop">
                     <canvas id="unity-canvas" width=720 height=480></canvas>
                     <div id="unity-loading-bar">
@@ -62,14 +68,20 @@
                     <div id="unity-footer">
                       <div id="unity-webgl-logo"></div>
                       <div id="unity-fullscreen-button"></div>
-                      <div id="unity-build-title">DemoCIO</div>
                     </div>
                   </div> 
-                </div>
-          
+                </div>           
         </div>
+      </div>
     </div>
 
+    <div class="col s12">
+      <div class="nav-wrapper blue darken-4 Bot-navbar" id="BottomNavbar">
+        <ul class = "ul-center">
+          <li>developed by Daniel Martínez</li>
+        </ul>
+      </div>
+  </div>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
