@@ -1,0 +1,65 @@
+#unity-canvas { background: #231F20 }
+.unity-mobile #unity-canvas { width: 50%; height: 50% }
+#unity-loading-bar { position: absolute; left: 70%; top: 45%; transform: translate(-50%, -50%); display: none }
+#unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
+#unity-footer { position: relative }
+.unity-mobile #unity-footer { display: none }
+#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-fullscreen-button {  position: relative; left: 675px; width: 38px; margin-left: 10px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-mobile-warning { position: absolute; left: 70%; top: 45%; transform: translate(-50%); background: white; padding: 10px; display: none }
+
+#snell{ background: url('snell.png');}
+
+nav
+{
+    display: flex;
+    justify-content: left;
+
+}
+.brand-logo{
+    font-weight: bolder;
+}
+.logo>img {
+    display: inline-block;
+    height: 70%;
+    vertical-align: middle;
+		position: relative; 
+    top:0.5px; 
+    left:-100px;
+}
+.card {
+    width:400px;
+    position: relative; 
+    top: 15px; 
+   }
+.separator1
+{
+    height: 50px;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.Bot-navbar {
+    justify-content: left;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.ul-center {
+    color: white;
+    text-align: right;
+    padding-right: 50px;
+}
+
+@media (max-width: 600px)
+{
+    .nav-button
+    {
+        color:black;
+    }
+}
